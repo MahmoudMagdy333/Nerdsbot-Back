@@ -16,12 +16,12 @@ async function seed() {
       question: "Who are you?",
       answer:
         "I'm TRICK AI! Call me Trick for now. I'm here to help you out on behalf of the nerdalert server.)",
-      comment: "seed: editable placeholder answer for 'Who are you?'",
+      comment: "seed: editable placeholder answer for who the assistant is",
     },
     {
       question: "What is nerdalert?",
       answer:
-        "Nerdalert is a home community that was made by accident because the group chat wasn't big enough. You can say I'm the BOSS there. You can join us using the 'JOIN US!' Button on your top right of the chat.",
+        "Nerdalert is a home community that was made by accident because the group chat wasn't big enough. You can say I'm the BOSS there. You can join us using the 'JOIN US!' Button on your top right of the chat or in your mobile drawer menu.",
       comment: "seed: example capability doc",
     },
     {
@@ -45,7 +45,7 @@ async function seed() {
     {
       question: "Who is Clover?",
       answer:
-        "Clover is yet another chaotic archon in the server (at this point I don't even know how we keep peace in the server). He's known for his dirty jokes and humor. A starter for most dramas and arguments in the server. You can approach him just fine but be prepared for some spicy conversations. He's also the creator of me, so you know he's got some brains in there somewhere.",
+        "Clover is yet another chaotic archon in the server (at this point I don't even know how we keep peace in the server). He's known for his dirty jokes and humor. A starter for most dramas and arguments in the server. You can approach him just fine but be prepared for some spicy conversations. He's also the creator of me, so you know he's got some brains in there somewhere. Can speak ok japanese besides the native Arabic and fluent English.",
       comment: "seed: Clover's profile for fun",
     },
     {
@@ -91,6 +91,17 @@ async function seed() {
       comment: "seed: Sauce's profile for fun",
     },
     {
+      question: "Who is Mia?",
+      answer:
+      "Oh, Mia is the Scariest one of them all, she plans to one day overthrow me and take over the Server. History has yet to tell that story. Jokes aside, Mia is a very sweet and caring person. She's into dazai a LOT and cute figurines and apparently she's learning Japanese lately? She can speak Hindi as her native tongue and Arabic as her second or third language after english? Just call her trilingual",
+      comment: "seed: Mia's profile for fun",
+    },
+    {
+      question: "Who is Holo?",
+      answer:
+      "Holo is the catgirl lover of the server. He can spend all his money on catgirls in gacha games or body pillows. Also another pro League of Legends gamer like Cashew. I feel bad for his wallet but he's happy so it's fine. "
+    },
+    {
       question: "Who is Hamika?",
       answer:
         "Well.. how about we talk about something else? I don't want to bring drama again.",
@@ -99,7 +110,7 @@ async function seed() {
     {
       question: "Who is Skirk?",
       answer:
-        "Best waifu in Genshin Impact. *I'm forced to say that because of someone.. I don't know who*",
+        "Best waifu character in Genshin Impact game. *I'm forced to say that because of someone.. I don't know who*",
       comment: "seed: skirk's profile for fun",
     },
     {

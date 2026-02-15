@@ -2,11 +2,14 @@ import express from "express";
 import cors from "cors";
 import assistantRouter from "./routes/assistant";
 import { connectDB } from "./services/db";
-import { PORT } from "./config";
+import { PORT, CORS_ORIGIN } from "./config";
 
 async function start() {
   const app = express();
-  app.use(cors());
+  app.use(cors({
+    origin: CORS_ORIGIN,
+    credentials: true,
+  }));
   app.use(express.json());
 
   // Try to connect to MongoDB but don't crash the server on auth/indexing errors.
